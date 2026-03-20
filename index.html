@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?= $domainTitle ?> | Карьерный апгрейд и инновации</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='45' fill='none' stroke='%2300D2FF' stroke-width='8'/><path d='M30 50 L45 65 L70 35' fill='none' stroke='%2300D2FF' stroke-width='8' stroke-linecap='round'/></svg>">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="./#hero" class="logo"><?= $domainTitle ?></a>
+                <ul class="nav-menu">
+                    <li><a href="./#hero">Главная</a></li>
+                    <li><a href="./#features">Преимущества</a></li>
+                    <li><a href="./#strategy">Стратегия</a></li>
+                    <li><a href="./#blog">Блог</a></li>
+                    <li><a href="./#faq">Вопросы</a></li>
+                </ul>
+                <a href="./#contact" class="btn btn-primary">Связаться</a>
+                <div class="burger">
+                    <span></span><span></span><span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <span>Платформа года 2026</span>
+                        </div>
+                        <h1 class="hero-title">
+                            Постройте карьеру, которая <br>
+                            <span class="text-gradient">работает на вас</span>
+                        </h1>
+                        <p class="hero-subtitle">
+                            AI-инструменты для реальных задач и методологии, доказавшие эффективность. Переосмыслите подход к развитию вместе с <?= $domainTitle ?>.
+                        </p>
+                        <div class="hero-btns">
+                            <a href="#contact" class="btn btn-accent">Начать сейчас</a>
+                            <a href="#strategy" class="btn btn-outline">Узнать детали</a>
+                        </div>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <strong>150+</strong>
+                                <span>Экспертов</span>
+                            </div>
+                            <div class="stat-item">
+                                <strong>98%</strong>
+                                <span>Успеха</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hero-visual">
+                        <div class="career-orbit">
+                            <div class="orbit-center">
+                                <i class="fa-solid fa-user-tie"></i>
+                            </div>
+                            <div class="orbit-ring ring-1"></div>
+                            <div class="orbit-ring ring-2"></div>
+                            <div class="orbit-dot dot-1"></div>
+                            <div class="orbit-dot dot-2"></div>
+                            <div class="orbit-dot dot-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">Почему <?= $domainTitle ?>?</h2>
+                    <p class="section-subtitle">Технологии нового поколения для вашего профессионального апгрейда</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <h3>Быстрый и лёгкий старт</h3>
+                        <p>Подключение занимает 2 минуты. Удобная адаптация без сложностей даже для новичков.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                        <h3>AI-инструменты</h3>
+                        <p>Инновационная технология анализа рынка труда для подбора идеальной стратегии роста.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-shield-halved"></i>
+                        </div>
+                        <h3>Проверенный партнер</h3>
+                        <p>Экспертная поддержка на всех этапах и методологии, доказавшие свою эффективность в ЕС.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="strategy" class="strategy">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">Ваша стратегия роста</h2>
+                    <p class="section-subtitle">Пошаговый путь, понятный каждому — от анализа до оффера мечты</p>
+                </div>
+        
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-num">01</div>
+                        <div class="timeline-content">
+                            <h3>Оценить перспективы</h3>
+                            <p>Проводим глубокий аудит ваших навыков и текущего положения на рынке ЕС.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-num">02</div>
+                        <div class="timeline-content">
+                            <h3>Инновационная стратегия</h3>
+                            <p>Создаем персональный Roadmap развития с использованием AI-инструментов.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-num">03</div>
+                        <div class="timeline-content">
+                            <h3>Воплотите мечты</h3>
+                            <p>Сопровождение на этапах интервью и переговоров. Практики, применимые уже сегодня.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">Карьерный журнал</h2>
+                    <p class="section-subtitle">AI-инструменты для реальных задач и экспертные статьи о рынке труда Европы</p>
+                </div>
+        
+                <div class="blog-grid">
+                    <article class="blog-card">
+                        <div class="blog-img">
+                            <img src="/img/one.jpg" alt="Рынок труда Франции">
+                            <span class="blog-category">Рынок труда</span>
+                        </div>
+                        <div class="blog-body">
+                            <span class="blog-date">12 февраля 2026</span>
+                            <h3>Как ИИ меняет поиск работы во Франции в 2026 году</h3>
+                            <p>Технологии нового поколения позволяют автоматизировать подбор вакансий на базе вашего профиля <?= $domainTitle ?>.</p>
+                            <a href="#contact" class="blog-more">Читать далее <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </article>
+        
+                    <article class="blog-card">
+                        <div class="blog-img">
+                            <img src="/img/two.jpg" alt="Пассивный доход">
+                            <span class="blog-category">Доход</span>
+                        </div>
+                        <div class="blog-body">
+                            <span class="blog-date">10 февраля 2026</span>
+                            <h3>Программа пассивного дохода для специалистов</h3>
+                            <p>Решения, которые меняют правила игры: как монетизировать свою экспертность через нашу платформу.</p>
+                            <a href="#contact" class="blog-more">Читать далее <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </article>
+        
+                    <article class="blog-card">
+                        <div class="blog-img">
+                            <img src="/img/three.jpg" alt="Soft Skills">
+                            <span class="blog-category">Развитие</span>
+                        </div>
+                        <div class="blog-body">
+                            <span class="blog-date">08 февраля 2026</span>
+                            <h3>Топ-5 навыков для быстрого старта в ЕС</h3>
+                            <p>Подборка практик, применимых уже сегодня для тех, кто хочет расширить горизонты своего проекта.</p>
+                            <a href="#contact" class="blog-more">Читать далее <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </article>
+                </div>
+        
+                <div class="blog-cta">
+                    <a href="#contact" class="btn btn-outline">Перейти в архив блога</a>
+                </div>
+            </div>
+        </section>  
+        <section id="faq" class="faq">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="section-title">Часто задаваемые вопросы</h2>
+                    <p class="section-subtitle">Экспертная поддержка на всех этапах вашего карьерного апгрейда</p>
+                </div>
+        
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Легко ли разобраться без опыта в ИИ?</h3>
+                            <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Абсолютно. Наша платформа построена по принципу «быстрый и легкий старт». Мы предоставляем пошаговый путь, понятный каждому, вне зависимости от технического бэкграунда.</p>
+                        </div>
+                    </div>
+        
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Предложение актуально только во Франции?</h3>
+                            <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>На данный момент наши основные методологии адаптированы под рынок Франции и ЕС. Платформа уже доступна в Европе и предлагает решения, которые меняют правила игры на международном уровне.</p>
+                        </div>
+                    </div>
+        
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Как работает программа пассивного дохода?</h3>
+                            <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Это технология для пассивного дохода на базе вашей экспертности. Мы помогаем упаковать ваши знания в цифровой продукт внутри инфраструктуры <?= $domainTitle ?>.</p>
+                        </div>
+                    </div>
+        
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <h3>Нужна ли предварительная консультация?</h3>
+                            <span class="faq-icon"><i class="fa-solid fa-plus"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Да, мы рекомендуем начать с бесплатной консультации по всем вопросам. Это позволит оценить перспективы проекта и составить индивидуальную стратегию роста.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <h2 class="section-title">Готовы к апгрейду?</h2>
+                        <p>Запросите доступ к платформе или получите бесплатную консультацию по всем вопросам прямо сейчас.</p>
+                        
+                        <div class="contact-badge">
+                            <i class="fa-solid fa-bolt"></i>
+                            <span>Отвечаем в течение 15 минут</span>
+                        </div>
+                    </div>
+        
+                    <div class="contact-form-box">
+                        <form id="main-form" class="form">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Email" required>
+                            </div>
+        
+                            <div class="form-group">
+                                <input type="tel" id="phone" name="phone" placeholder="Телефон (только цифры)" required pattern="[0-9]{5,15}">
+                            </div>
+        
+                            <div class="form-captcha">
+                                <label for="captcha">Сколько будет <span id="captcha-question"></span>?</label>
+                                <input type="number" id="captcha-answer" placeholder="Ответ" required>
+                            </div>
+        
+                            <div class="form-checkbox">
+                                <input type="checkbox" id="agree" required>
+                                <label for="agree">Согласен с <a href="./privacy.php" target="_blank">политикой конфиденциальности</a></label>
+                            </div>
+        
+                            <button type="submit" class="btn btn-accent btn-block">Запросить доступ</button>
+                            
+                            <div id="form-success" class="form-message success">
+                                <i class="fa-solid fa-circle-check"></i> Сообщение успешно отправлено!
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>     
+        </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="./#hero" class="logo"><?= $domainTitle ?></a>
+                    <p class="footer-desc">Решения, которые меняют правила игры в вашей карьере. Передовая цифровая инфраструктура для профессионального роста.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Навигация</h4>
+                    <ul class="footer-links">
+                        <li><a href="./#hero">Главная</a></li>
+                        <li><a href="./#features">Преимущества</a></li>
+                        <li><a href="./#strategy">Стратегия</a></li>
+                        <li><a href="./#blog">Блог</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Юридическая информация</h4>
+                    <ul class="footer-links">
+                        <li><a href="./privacy.php">Privacy Policy</a></li>
+                        <li><a href="./cookies.php">Cookie Policy</a></li>
+                        <li><a href="./terms.php">Terms of Service</a></li>
+                        <li><a href="./return.php">Return Policy</a></li>
+                        <li><a href="./disclaimer.php">Disclaimer</a></li>
+                        <li><a href="./contact.php">Contact Us</a></li>
+                        <li><a href="./personal-data-policy.php">Data Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакты</h4>
+                    <ul class="footer-info">
+                        <li><i class="fa-solid fa-phone"></i> <a href="tel:+33189480934">+33 1 89 48 09 34</a></li>
+                        <li><i class="fa-solid fa-envelope"></i> <a href="mailto:hello@<?= $fullDomain ?>">hello@<?= $fullDomain ?></a></li>
+                        <li><i class="fa-solid fa-location-dot"></i> 25 Rue du Petit Musc, 75004 Paris, France</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 <?= $fullDomain ?>. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+    <div class="mobile-overlay">
+        <div class="mobile-nav-container">
+            <ul class="mobile-menu">
+                <li><a href="./#hero">Главная</a></li>
+                <li><a href="./#features">Преимущества</a></li>
+                <li><a href="./#strategy">Стратегия</a></li>
+                <li><a href="./#blog">Блог</a></li>
+                <li><a href="./#faq">Вопросы</a></li>
+                <li><a href="./#contact" class="btn btn-primary">Связаться</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div id="cookie-popup" class="cookie-popup">
+        <div class="cookie-content">
+            <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.php">Cookie политике</a>.</p>
+            <button id="accept-cookies" class="btn btn-primary">Принять</button>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

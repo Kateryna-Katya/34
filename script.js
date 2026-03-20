@@ -1,9 +1,3 @@
-/**
- * Project: <?= $domainTitle ?> 
- * Version: 1.0.0 (Final Stable)
- * Libraries: GSAP 3.12.2 + ScrollTrigger
- */
-
 document.addEventListener('DOMContentLoaded', () => {
     
     // === 0. РЕГИСТРАЦИЯ ПЛАГИНОВ ===
